@@ -22,3 +22,4 @@ def get_device() -> torch.device:
     Returns CUDA device if available, otherwise CPU.
     """
     return torch.device("cuda" if torch.cuda.is_available() else "cpu")
+
