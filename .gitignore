@@ -1,0 +1,87 @@
+# ==============================================================================
+# Byte-compiled / optimized / DLL files
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+*.venv
+
+# ==============================================================================
+# IDEs & Text Editors
+# ==============================================================================
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+
+# ==============================================================================
+# Operating System Files
+# ==============================================================================
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# ==============================================================================
+# Jupyter Notebooks & IPynb Checkpoints
+# ==============================================================================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# ==============================================================================
+# Environment Variables & Secrets
+# ==============================================================================
+.env
+.env.*
+!.env.example
+
+# ==============================================================================
+# Data Files (Keep structure via .gitkeep, ignore data dumps)
+# ==============================================================================
+data/raw/*
+!data/raw/.gitkeep
+data/processed/*
+!data/processed/.gitkeep
+data/sequences/*
+!data/sequences/.gitkeep
+
+# Catch-all for large binary data dumps anywhere in workspace
+*.npy
+*.npz
+*.parquet
+*.feather
+*.h5
+*.hdf5
+
+# ==============================================================================
+# Model Weights & Trained Checkpoints (Ignore binary model artifacts)
+# ==============================================================================
+outputs/checkpoints/*
+!outputs/checkpoints/.gitkeep
+outputs/predictions/*
+!outputs/predictions/.gitkeep
+saved_models/*
+!saved_models/.gitkeep
+
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.onnx
+
+# Ignore dynamic logs
+*.log
